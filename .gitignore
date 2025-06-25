@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+
+# Django stuff
+*.log
+db.sqlite3
+
+# VSCode and system
+.vscode/
+.DS_Store
+.idea/
+
+# Node stuff (если используешь npm)
+node_modules/

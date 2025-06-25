@@ -309,16 +309,13 @@
                             change: filterAndRender
                         });
 
-                        // Установим стартовые значения в поля
                         $("#price-input-min").val(minPrice);
                         $("#price-input-max").val(maxPrice);
 
-                        // Когда пользователь вручную меняет значение
                         $("#price-input-min, #price-input-max").on("change", function () {
                             let minVal = parseInt($("#price-input-min").val());
                             let maxVal = parseInt($("#price-input-max").val());
 
-                            // защита от некорректных значений
                             if (minVal > maxVal) [minVal, maxVal] = [maxVal, minVal];
 
                             $("#price-range").slider("values", [minVal, maxVal]);
@@ -536,5 +533,4 @@
         });
     </script>
 </body>
-
 </html>
