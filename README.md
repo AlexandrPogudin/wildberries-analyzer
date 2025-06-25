@@ -77,6 +77,14 @@ GET /api/products/?min_price=5000&min_rating=4
 
 ---
 
+![Снимок экрана 2025-06-25 200057](https://github.com/user-attachments/assets/7c98aad9-7856-4df3-bb8a-e40bd6e09aa6)
+
+![Снимок экрана 2025-06-25 200106](https://github.com/user-attachments/assets/09363d12-2b8e-46ac-8062-dfa7ba9440cc)
+
+![Снимок экрана 2025-06-25 200112](https://github.com/user-attachments/assets/56f7987f-8dad-4680-9400-81bd53fdd873)
+
+---
+
 ## 🚀 Установка и запуск
 
 ```bash
@@ -97,7 +105,6 @@ python manage.py migrate
 # Запустить сервер
 python manage.py runserver
 ```
-
 ---
 
 ## 🧪 Как пользоваться
